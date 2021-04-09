@@ -5,6 +5,8 @@ public class javaLessonTwo {
 static Scanner userinput = new Scanner(System.in);
 
     public static void main(String[] args) {
+        // scanner can be placed after main method also with using static//
+
         System.out.print("Your favorite number: ");
 
 //STRING
@@ -17,7 +19,7 @@ static Scanner userinput = new Scanner(System.in);
 //    }
 //    else{
 //        System.out.println("You entered wrongly!");
-
+     
 // INTEGER
         if (userinput.hasNextInt()){
             int intEntered = userinput.nextInt();
