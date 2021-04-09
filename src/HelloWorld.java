@@ -1,4 +1,4 @@
-import org.omg.CORBA.StringHolder;
+
 
 public class HelloWorld {
     public static void main(String[] args) {
