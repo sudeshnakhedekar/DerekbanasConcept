@@ -9,7 +9,7 @@ static Scanner userinput = new Scanner(System.in);
 
         System.out.print("Your favorite number: ");
 
-//STRING
+//STRING:
 //    if(userinput.hasNext()){
 //
 //        String StringEntered = userinput.nextLine();
@@ -19,8 +19,8 @@ static Scanner userinput = new Scanner(System.in);
 //    }
 //    else{
 //        System.out.println("You entered wrongly!");
-     
-// INTEGER
+
+// INTEGER:
         if (userinput.hasNextInt()){
             int intEntered = userinput.nextInt();
             System.out.println("You entered:" +intEntered);
