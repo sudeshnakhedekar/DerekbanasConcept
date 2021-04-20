@@ -1,8 +1,12 @@
-public class Vehicle extends Crashable implements Drivable {
+public class Vehicle extends Crashable implements Drivable, Cloneable {
 
     int numOfWheels = 2;
     double theSpeed = 0;
     int carStrength = 0;
+
+    public Vehicle() {
+
+    }
 
     @Override
     public int getWheel() {
@@ -36,7 +40,25 @@ this.numOfWheels = numWheels;
 
     @Override
     public int getCarStrength() {
+
         return this.carStrength;
+    }
+
+    public String toString(){
+
+        return "Num of Wheels: " +this.numOfWheels;
+
+    }
+    public Object clone(){
+
+       Vehicle car;
+       try {
+           car=(Vehicle) super.clone();
+
+       }catch (CloneNotSupportedException e){
+ return null;
+       }
+       return car;
     }
 }
 
