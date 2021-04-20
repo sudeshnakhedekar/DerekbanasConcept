@@ -7,20 +7,26 @@ public class JavaTut {
 
     public static void main(String[] args) {
 
-        //byte, short, char, boolean , int , float,
-        //double, and long
+      boolean happy = true;
+      char a = 'a';
+      // \n \t \b \f \r \"" \' \\
+         float Num = 1.11111111F;
+         //p
+        float Num1 = 1.111111F;
+        //p
+        System.out.println("Floatp :" + (Num + Num1));
 
-        System.out.println("Byte Max:" +Byte.MAX_VALUE);
-        System.out.println("Byte Min:" +Byte.MIN_VALUE);
 
-        System.out.println("Short Max:" +Short.MAX_VALUE);
-        System.out.println("Short Min:" +Short.MIN_VALUE);
+        double dbNum = 1.111111111111;
+        double dbNum1= 1.1111111111111;
 
-        System.out.println("Int Max:" +Integer.MAX_VALUE);
-        System.out.println("Int Min:" +Integer.MIN_VALUE);
+        System.out.println("Double:" +(dbNum+dbNum1));
 
-        System.out.println("Long Max:" +Long.MAX_VALUE);
-        System.out.println("Long Min:" +Long.MIN_VALUE);
+        double thousand = 1e+3;
+        System.out.println(thousand);
+
+        long bigNum = 123_456_789;
+        System.out.println(bigNum);
 
 
 
