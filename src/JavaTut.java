@@ -7,27 +7,30 @@ public class JavaTut {
 
     public static void main(String[] args) {
 
-      boolean happy = true;
-      char a = 'a';
-      // \n \t \b \f \r \"" \' \\
-         float Num = 1.11111111F;
-         //p
-        float Num1 = 1.111111F;
-        //p
-        System.out.println("Floatp :" + (Num + Num1));
+     //CASTING ---> Converting from one datatype to another.
 
+        //Small to large
+        int smInt = 10;
+        long smLong = smInt;
+        System.out.println(smLong);
 
-        double dbNum = 1.111111111111;
-        double dbNum1= 1.1111111111111;
+        //Large to small
+        double cDbl = 1.234;
+        int cInt =(int) cDbl;
+        System.out.println(cInt);
 
-        System.out.println("Double:" +(dbNum+dbNum1));
+        long bigLong = 2147486470L;
+        int bInt = (int) bigLong;
+        System.out.println(bInt);
 
-        double thousand = 1e+3;
-        System.out.println(thousand);
+        String favNum = Double.toString(1.618);
+        //Byte.parseByte
+        int strInt = Integer.parseInt("10");
+        System.out.println(strInt);
 
-        long bigNum = 123_456_789;
-        System.out.println(bigNum);
-
+        double strDbl = Double.parseDouble("10.876476575");
+        System.out.println(strDbl);
+        //remaining datatypes can be done as above
 
 
 
