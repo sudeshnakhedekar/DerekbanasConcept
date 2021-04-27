@@ -7,30 +7,24 @@ public class JavaTut {
 
     public static void main(String[] args) {
 
-     //CASTING ---> Converting from one datatype to another.
+    //Math functions
 
-        //Small to large
-        int smInt = 10;
-        long smLong = smInt;
-        System.out.println(smLong);
+        System.out.println("5 + 4 = " +(5+4));
+        System.out.println("5 - 4 = " +(5-4));
+        System.out.println("5 * 4 = " +(5*4));
+        System.out.println("5 / 4 = " +(5/4));
+        System.out.println("5 % 4 = " +(5%4));
 
-        //Large to small
-        double cDbl = 1.234;
-        int cInt =(int) cDbl;
-        System.out.println(cInt);
+        //will get double value here
+        System.out.println("5 / 4 = " +(5.0/4.0));
 
-        long bigLong = 2147486470L;
-        int bInt = (int) bigLong;
-        System.out.println(bInt);
+//        incMe++ == incMe = incMe +1
+        int incMe =0;
+        System.out.println("incMe :" +(incMe++));
+        System.out.println("incMe :" +(++incMe));
 
-        String favNum = Double.toString(1.618);
-        //Byte.parseByte
-        int strInt = Integer.parseInt("10");
-        System.out.println(strInt);
 
-        double strDbl = Double.parseDouble("10.876476575");
-        System.out.println(strDbl);
-        //remaining datatypes can be done as above
+
 
 
 
