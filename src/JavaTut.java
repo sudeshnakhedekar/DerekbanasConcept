@@ -7,39 +7,18 @@ public class JavaTut {
 
     public static void main(String[] args) {
 
-        //String builder
 
-        StringBuilder sb = new StringBuilder("I'm a string builder");
-        //num of char.
-        System.out.println(sb.length());
-       //size that is set aside for your StringBuilder
-        System.out.println(sb.capacity());
-        //append
-        sb.append(" Yeah");
-        System.out.println(sb.insert(6,"Big "));
-        System.out.println(sb.replace(6,9 ,"wig"));
-        System.out.println(sb.substring(6,10));
-        System.out.println(sb.delete(6,10));
-        System.out.println(sb.charAt(4));
-        System.out.println(sb.indexOf("Yeah"));
+        //Array
+        int[] a1 = new int[10];
+        a1[0]=1;
+        Arrays.fill(a1,2);
+        System.out.println(a1[0]);
+        System.out.println(a1.length);
+        String[] a2 = {"one","two"};
+        int[] oneTo10 = IntStream.rangeClosed(2,10).toArray();
+        for(int x: oneTo10) System.out.println(x);
+        
 
-        System.out.println();
-
-        //String Buffer
-
-        StringBuffer sb1 = new StringBuffer("I'm a string builder");
-        //num of char.
-        System.out.println(sb1.length());
-        //size that is set aside for your StringBuilder
-        System.out.println(sb1.capacity());
-        //append
-        sb1.append(" Yeah");
-        System.out.println(sb1.insert(6,"Big "));
-        System.out.println(sb1.replace(6,9 ,"wig"));
-        System.out.println(sb1.substring(6,10));
-        System.out.println(sb1.delete(6,10));
-        System.out.println(sb1.charAt(4));
-        System.out.println(sb1.indexOf("Yeah"));
 
 
 
