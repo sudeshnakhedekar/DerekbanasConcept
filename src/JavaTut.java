@@ -9,6 +9,7 @@ public class JavaTut {
 
 
         //Array
+        System.out.println("ALL ABOUT ARRAY:");
         int[] a1 = new int[10];
         a1[0]=1;
         Arrays.fill(a1,2);
