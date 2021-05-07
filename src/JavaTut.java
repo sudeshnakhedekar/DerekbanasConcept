@@ -18,6 +18,8 @@ public class JavaTut {
         String[] a2 = {"one","two"};
         int[] oneTo10 = IntStream.rangeClosed(2,10).toArray();
         for(int x: oneTo10) System.out.println(x);
+        int num= 10;
+        System.out.println(num);
         
 
 
