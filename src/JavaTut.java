@@ -13,7 +13,7 @@ public class JavaTut {
         int[] a1 = new int[10];
         a1[0]=1;
         Arrays.fill(a1,2);
-        System.out.println(a1[0]);
+        System.out.println(a1[1]);
         System.out.println(a1.length);
         String[] a2 = {"one","two"};
         int[] oneTo10 = IntStream.rangeClosed(2,10).toArray();
